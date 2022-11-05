@@ -30,7 +30,6 @@
     \large{分级：#5} \\
     \large{预计发行日期：#6}
   \end{center}
-  
 
   \newpage
 }
@@ -41,3 +40,52 @@
     \includegraphics[width=#2]{#1}
   \end{figure}
 }
+
+\newenvironment{Story}{
+  \subsection*{故事梗概}
+}{}
+
+\newenvironment{Gameplay}{
+  \subsection*{游戏玩法}
+}{}
+
+\newenvironment{Process}{
+  \subsection*{游戏流程}
+}{}
+
+
+\newenvironment{Player}{
+  \subsection*{玩家角色}
+}{}
+
+\newenvironment{Control}[1]{
+  \subsection*{控制方式（#1）}
+}{}
+
+\newenvironment{World}{
+  \subsection*{游戏世界}
+}{}
+
+\newenvironment{Mechanics}{
+  \subsection*{游戏机制}
+}{}
+
+\newenvironment{Objects}{
+  \subsection*{可收集道具}
+}{}
+
+\newenvironment{Enemy}{
+  \subsection*{敌人}
+}{}
+
+\newenvironment{Boss}{
+  \subsection*{Boss}
+}{}
+
+\newenvironment{Cutscene}{
+  \subsection*{过场动画}
+}{}
+
+\newenvironment{Addition}{
+  \subsection*{额外内容}
+}{}
