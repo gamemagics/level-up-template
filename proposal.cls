@@ -53,7 +53,6 @@
   \subsection*{游戏流程}
 }{}
 
-
 \newenvironment{Player}{
   \subsection*{玩家角色}
 }{}
